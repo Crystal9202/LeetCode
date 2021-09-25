@@ -1,12 +1,12 @@
 # 時間複雜度: O(n)
-# class Solution:
-#     def searchInsert(self, nums, target):
-#         for i in range(len(nums)):
-#             if nums[i] >= target :
-#                 return i
-#         return len(nums) 
-# S = Solution()
-# print(S.searchInsert([1,3,5,6],5))
+class Solution:
+    def searchInsert(self, nums, target):
+        for i in range(len(nums)):
+            if nums[i] >= target :
+                return i
+        return len(nums) 
+S = Solution()
+print(S.searchInsert([1,3,5,6],5))
 
 
 
