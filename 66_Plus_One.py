@@ -1,3 +1,4 @@
+# 時間複雜度: O(n)
 class Solution:
     def plusOne(self, digits):
         for i in range(len(digits)-1,-1,-1):
