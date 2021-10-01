@@ -1,3 +1,4 @@
+#直接改不需要返回值
 #時間複雜度: O(max(m,n))
 class Solution:
     def merge(self, nums1,m , nums2 ,n ):
