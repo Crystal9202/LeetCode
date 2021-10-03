@@ -1,3 +1,4 @@
+# 時間複雜度: O(n**2)
 class Solution:
     def generate(self, numRows) :
         triangle = []
