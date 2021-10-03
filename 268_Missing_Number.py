@@ -5,12 +5,11 @@ class Solution:
     def missingNumber(self, nums):
         a = len(nums)
         for i, val in enumerate(nums):
-            a ^= i^val
-        
+            a ^= i^val  
         return a
-
 p = Solution()
 print(p.missingNumber([9,6,4,2,3,5,7,0,1]))
+
 
 # 時間複雜度: O(n)
 # 空間複雜度: O(n)
@@ -18,11 +17,10 @@ class Solution:
     def missingNumber(self, nums):
         data = {}
         for i in nums:
-            data[i] = 1
-        
-        for i in range(0, len(nums) + 1):
+            data[i] = data.get(i,0)+1
+            
+        for i in range(len(nums)+1):
             if i not in data:
-                return i
-
+                return i 
 p = Solution()
 print(p.missingNumber([9,6,4,2,3,5,7,0,1]))
