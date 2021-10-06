@@ -11,7 +11,7 @@ class Solution:
             else:
                 False
 S = Solution()
-print(S.containsDuplicate([1,1,1,3,3,4,3,2,4,2]))
+print(S.containsDuplicate([1,2,3,4]))
 
 # 時間複雜度 : 使用內建函式不討論
 class Solution:
