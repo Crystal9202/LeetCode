@@ -1,3 +1,6 @@
+# 時間複雜度 : O(n)
+# 空間複雜度 : O(1)
+
 class Solution:
     def pivotIndex(self, nums):
         S = sum(nums)
