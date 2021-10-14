@@ -1,3 +1,5 @@
+# 時間複雜度: O(nlog(n))
+# 空間複雜度: O(n)
 class Solution:
     def minimumAbsDifference(self, arr):
         arr.sort()
