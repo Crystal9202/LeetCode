@@ -14,7 +14,7 @@ class Solution:
                     data[val] = i 
         return False
 S =Solution()
-print(S.containsNearbyDuplicate([1,2,3,1], k = 3))
+print(p.containsNearbyDuplicate([1,2,3,1,2,3], 2))
 
 
 # 時間複雜度: O(n)
