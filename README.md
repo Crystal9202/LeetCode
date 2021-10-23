@@ -9,4 +9,6 @@
 </p>
 
 <h1>參考資源</h1>
-● LeetCode的討論區
+<ul>
+  <li><a>LeetCode的討論區</a></li>
+ </ul>
