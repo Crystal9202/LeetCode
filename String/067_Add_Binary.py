@@ -1,3 +1,5 @@
+# 時間複雜度 :O(max(n,m)) ,n =len(a) and m=len(b)
+# 空間複雜度 :O(max(n,m))
 class Solution:
     def addBinary(self, a, b) :
         result = ''
