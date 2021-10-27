@@ -1,5 +1,5 @@
-# 時間複雜度 : O(n)
-# 空間複雜度 : O(n)
+時間複雜度 : O(n)
+空間複雜度 : O(n)
 class Solution:
     def findShortestSubArray(self, nums):
         count = {}
@@ -21,3 +21,5 @@ class Solution:
         return  result
 S = Solution()
 print(S.findShortestSubArray([1,2,2,3,1]))
+
+
