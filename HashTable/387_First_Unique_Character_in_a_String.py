@@ -1,3 +1,5 @@
+# 時間複雜度: O(n)
+# 空間複雜度: O(1), 英文字母最多 26 個
 class Solution:
     def firstUniqChar(self, s) :
         mapping ={}
