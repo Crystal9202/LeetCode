@@ -1,3 +1,5 @@
+# 時間複雜度: O(n)
+# 空間複雜度: O(n)
 class Solution:
     def reformatNumber(self, number: str) -> str:
         number = number.replace("-" ,'').replace(" ","")
