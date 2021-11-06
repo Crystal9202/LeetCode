@@ -1,3 +1,5 @@
+# 時間複雜度 :O(n)
+# 空間複雜度 :O(1)
 class Solution:
     def minOperations(self, s) :
         even = 0
