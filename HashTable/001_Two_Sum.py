@@ -11,7 +11,7 @@ p =Solution()
 print(p.twoSum([2,7,11,15],9))
 
 
-字典法: 時間複雜度 o(n)
+#字典法: 時間複雜度 o(n)
 # 空間複雜度 : O(n)
 class Solution:
     def twoSum(self, nums, target):
