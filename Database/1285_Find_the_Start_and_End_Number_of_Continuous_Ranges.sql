@@ -8,4 +8,4 @@ with cte as (
 
 select min(log_id) as start_id , max(log_id) as end_id 
 from cte 
-group by rnk  ;
+group by rnk ;
